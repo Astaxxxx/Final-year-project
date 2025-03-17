@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://br105h82c73wo"]
+
+[ext_resource type="Script" path="res://ai_assistant.gd" id="1_iuqbo"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.029685, -0.00758743, 0)
+script = ExtResource("1_iuqbo")
